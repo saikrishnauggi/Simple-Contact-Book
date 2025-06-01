@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Contact Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>📇 Simple Contact Book</h1>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="tel" id="phone" placeholder="Phone Number" required>
+    <input type="email" id="email" placeholder="Email Address" required>
+    <button type="submit" id="submitBtn">Add Contact</button>
+  </form>
+
+  <div class="search-box">
+    <input type="text" id="search" placeholder="Search contacts by name...">
+  </div>
+
+  <div id="contactList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
